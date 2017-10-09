@@ -1,0 +1,44 @@
+body {
+
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+    line-height: 1;
+}
+
+html {
+		font-size: 16pt;
+	}
+
+.parallax-1 {
+    /* Initial Background */
+    background: url("https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb") no-repeat center center fixed;
+    /* Full height */
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.parallax-2 {
+
+    /* Second Background */
+    background-image: url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?w=940&amp;h=650&amp;auto=compress&amp;cs=tinysrgb");
+     /* Full height */
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.parallax-3 {
+  background-image: url("../img/demo/pattern3.png");
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
