@@ -1,11 +1,9 @@
 $(document).ready(function() {
-
-});
-
-$("#about-me-top").click(function() {
-$('html,body').animate({
-    scrollTop: $("#About").offset().top},
-    'slow');
+    $("#about-me-top").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#About").offset().top},
+        'slow');
+    });
 });
 
 $(window).scroll(function() {
