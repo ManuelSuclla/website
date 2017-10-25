@@ -107,6 +107,21 @@ ul {
     text-align: justify;
 }
 
+.container-portfolio {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container-portfolio h1 {
+    display: block;
+    margin: 32px;
+}
+
 .contact-me h1 {
     display: block;
     margin: 32px;
@@ -154,7 +169,7 @@ footer i {
     margin: 0px 16px;
 }
 
-.parallax-1, .parallax-2, .parallax-1-blur {
+.parallax-1, .parallax-2 {
     /* Full height */
     min-height: 100%;
     background-attachment: fixed;
@@ -170,7 +185,8 @@ footer i {
     background-image: url("../media/bg-photo-1.jpeg");
 }
 .parallax-2 {
-    background-image: url("../media/bg-photo-2.jpeg");
+    background-image: url("../media/bg-photo-3.jpeg");
+    position: relative;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
