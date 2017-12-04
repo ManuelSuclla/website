@@ -43,6 +43,8 @@ ul {
     white-space:nowrap;
     padding: 16px;
     margin: 32px 0px;
+    text-align: center;
+    list-style-position: inside;
 }
 
 .li-intro-items {
@@ -62,6 +64,12 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.hero-text hr {
+    height:10px;
+    width:0;
+    border:1px solid white;
 }
 
 .hero-text h1, h3 {
@@ -103,6 +111,40 @@ ul {
     text-align: justify;
 }
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.portfolio-items {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.portfolio-items ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    text-align: justify;
+}
+
+.portfolio-items a {
+    color: black;
+}
+
+.portfolio-items a:hover {
+    text-decoration: underline;
+}
+
 .container-portfolio {
     text-align: center;
     margin: 0;
@@ -127,7 +169,15 @@ ul {
     position: relative;
     height: 100%;
     padding: 32px 64px;
-    background-color: white;
+    background-image: url("../media/bg-photo-4.jpeg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .contact-me {
