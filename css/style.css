@@ -91,6 +91,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
+    max-height: 100%;
 }
 
 .about-me h1 {
@@ -117,21 +118,20 @@ hr {
 .academic-items {
     text-align: center;
     color: black;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
     position: relative;
     margin: auto;
     width: 100%;
     padding: 16px;
+    max-height: 100%;
 }
 
 .academic-items ul {
-    padding: 0px 64px;
+    padding: 0px 48px;
     -webkit-columns: 2 300px;
     -moz-columns: 2 300px;
      columns: 2 300px;
     text-align: justify;
+    max-height: 100%;
 }
 
 .academic-items a {
@@ -141,6 +141,12 @@ hr {
 .academic-items a:hover {
     text-decoration: underline;
 }
+
+.academic-items h1 {
+    display: block;
+    margin: 32px;
+}
+
 
 .container-academics {
     text-align: center;
@@ -239,8 +245,8 @@ footer i {
 
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
     }
-}
+} */
