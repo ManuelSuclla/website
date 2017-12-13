@@ -41,7 +41,7 @@ a:hover, a:active { text-decoration: none; }
 
 ul {
     white-space:nowrap;
-    padding: 16px;
+    padding: 16px 0px;
     margin: 32px 0px;
     text-align: center;
     list-style-position: inside;
@@ -81,13 +81,6 @@ ul {
     position: relative;
     background-color: white;
     height: 100%;
-    padding: 16px 64px;
-}
-
-.container-about {
-    position: relative;
-    background-color: white;
-    height: 100%;
     padding: 32px 64px;
 }
 
@@ -121,31 +114,35 @@ hr {
     border-width: 1px;
 }
 
-.portfolio-items {
+.academic-items {
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: black;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    position: relative;
+    margin: auto;
+    width: 100%;
+    padding: 16px;
 }
 
-.portfolio-items ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+.academic-items ul {
+    padding: 0px 64px;
+    -webkit-columns: 2 300px;
+    -moz-columns: 2 300px;
+     columns: 2 300px;
     text-align: justify;
 }
 
-.portfolio-items a {
+.academic-items a {
     color: black;
 }
 
-.portfolio-items a:hover {
+.academic-items a:hover {
     text-decoration: underline;
 }
 
-.container-portfolio {
+.container-academics {
     text-align: center;
     margin: 0;
     position: absolute;
@@ -155,7 +152,7 @@ hr {
     color: white;
 }
 
-.container-portfolio h1 {
+.container-academics h1 {
     display: block;
     margin: 32px;
 }
@@ -211,11 +208,12 @@ footer {
     background-color: black;
     line-height: 50px;
 }
+
 footer i {
     margin: 0px 16px;
 }
 
-.parallax-1, .parallax-2 {
+.parallax-1, .parallax-2, .parallax-3 {
     /* Full height */
     min-height: 100%;
     background-attachment: fixed;
@@ -234,6 +232,11 @@ footer i {
     background-image: url("../media/bg-photo-3.jpeg");
     position: relative;
 }
+
+.parallax-3 {
+    background-image: url("../media/bg-photo-5.jpeg");
+}
+
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
