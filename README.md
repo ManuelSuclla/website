@@ -1,5 +1,5 @@
 # Welcome to my website's repo!
-# [ManuelSuclla.github.io](https://manuelsuclla.github.io/)
+# [ManuelSuclla.github.io](https://manuelsuclla.github.io/website/)
 
 <dl>
   <dt>Feel free to look around.</dt>
