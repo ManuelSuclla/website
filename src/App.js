@@ -34,7 +34,7 @@ class App extends Component {
               atLeave={{ opacity: 1 }}
               atActive={{ opacity: 1 }}
               className="switch-wrapper">
-              <Route exact path="/" component={HomePage}/>
+              <Route exact path="/website" component={HomePage}/>
               <Route exact path="/about" component={About}/>
             </AnimatedSwitch>
           </Container>

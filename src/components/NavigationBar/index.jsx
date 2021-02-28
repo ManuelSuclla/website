@@ -15,7 +15,7 @@ class NavigationBar extends Component {
             this.props ? (
               <Navbar bg="dark" variant="dark" fixed="top" className="justify-content-center">
                   <Nav>
-                      <Nav.Link as={Link} to="/">Home</Nav.Link>
+                      <Nav.Link as={Link} to="/website">Home</Nav.Link>
                       <Nav.Link as={Link} to="/about">About</Nav.Link>
                       <Nav.Link onClick={() => window.open(Resume, "_blank")}>Resume</Nav.Link>
                   </Nav>
