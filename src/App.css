@@ -1,0 +1,26 @@
+.App {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  /* background: url("./extras/background-boat.jpg") no-repeat center center fixed; */
+  background-color: whitesmoke;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.whiteFont {
+  color: #fcfcfc;
+}
+
+.switch-wrapper {
+  position: relative;
+}
+ 
+/* .switch-wrapper > div {
+  position: absolute;
+} */
