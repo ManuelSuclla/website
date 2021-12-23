@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import TypingAnimation from '../TypingAnimation';
-import ProfileImage from '../../extras/profile.jpg';
+import ProfileImage from '../../extras/profile2.jpg';
 import github from '../../extras/github.png';
 import linkedin from '../../extras/linkedin.png';
 
